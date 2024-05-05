@@ -7,10 +7,13 @@ The dataset used in this project is named "spam.csv". It consists of two columns
 
 **Preprocessing**
 
-Loading the Data: The dataset is loaded into a Pandas DataFrame.
-Data Cleaning: Any NaN values in the dataset are replaced with empty strings.
-Encoding Labels: The labels in the "class" column are encoded to 0 for spam and 1 for ham.
-Train-Test Split: The dataset is split into training and testing sets for model evaluation.
+**Loading the Data:** The dataset is loaded into a Pandas DataFrame.
+
+**Data Cleaning:** Any NaN values in the dataset are replaced with empty strings.
+
+**Encoding Labels:** The labels in the "class" column are encoded to 0 for spam and 1 for ham.
+
+**Train-Test Split:** The dataset is split into training and testing sets for model evaluation.
 
 **Feature Extraction**
 
